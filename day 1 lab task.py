@@ -40,9 +40,38 @@ d=a//10
 print(d)
 
 #7)Swap Without a Third Variable using bitwise operators
-a=10
-b=20
-print("swap the values,a*b)
+'''a=int(input("enter a value:"))
+b=int(input("enter b value:"))
+a=a^b
+b=a^b
+a=a^b
+print("swap values:")
+print("a=",a)
+print("b=",b)'''
+
+#8)ATM Cashier breakdown
+'''amount=3800
+a=amount//500
+b=amount%500
+c=b//100
+print(" 500 notes:",a)
+print("leftover:",b)
+print("100 notes:",c)'''
+
+#9)Weeks and Leftover Days Converter
+'''days=45
+w=days//7
+l=days%7
+print("weeks:",w)
+print("leftover days:",l)'''
+
+#10)Reverse a 2-Digit Number Mathematically
+num=27
+firstdigit=num//10
+seconddigit=num%10
+R=(seconddigit*10)+firstdigit
+print("Reverse 2 digit num:",R)
+
 
 
 
